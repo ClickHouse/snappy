@@ -36,8 +36,8 @@
 // using BMDiff and then compressing the output of BMDiff with
 // Snappy.
 
-#ifndef THIRD_PARTY_SNAPPY_SNAPPY_H__
-#define THIRD_PARTY_SNAPPY_SNAPPY_H__
+#ifndef THIRD_PARTY_SNAPPY_SNAPPY_H_
+#define THIRD_PARTY_SNAPPY_SNAPPY_H_
 
 #include <stddef.h>
 #include <stdint.h>
@@ -254,4 +254,4 @@ namespace snappy {
   static constexpr size_t kMaxHashTableSize = 1 << kMaxHashTableBits;
 }  // end namespace snappy
 
-#endif  // THIRD_PARTY_SNAPPY_SNAPPY_H__
+#endif  // THIRD_PARTY_SNAPPY_SNAPPY_H_

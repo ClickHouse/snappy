@@ -28,8 +28,8 @@
 //
 // List of test case files.
 
-#ifndef THIRD_PARTY_SNAPPY_SNAPPY_TEST_DATA_H__
-#define THIRD_PARTY_SNAPPY_SNAPPY_TEST_DATA_H__
+#ifndef THIRD_PARTY_SNAPPY_SNAPPY_TEST_DATA_H_
+#define THIRD_PARTY_SNAPPY_SNAPPY_TEST_DATA_H_
 
 #include <cstddef>
 #include <string>
@@ -65,4 +65,4 @@ constexpr struct {
 
 }  // namespace snappy
 
-#endif  // THIRD_PARTY_SNAPPY_SNAPPY_TEST_DATA_H__
+#endif  // THIRD_PARTY_SNAPPY_SNAPPY_TEST_DATA_H_
